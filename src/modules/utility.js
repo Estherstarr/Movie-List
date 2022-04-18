@@ -5,4 +5,6 @@ const fetchShows = async () => {
   const allShows = await res.json();
   return allShows;
 };
-export { fetchShows, showApi };
+export {
+  fetchShows, showApi,
+};
