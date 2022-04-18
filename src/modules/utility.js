@@ -1,4 +1,4 @@
-const showApi = 'https://api.tvmaze.com/shows';
+const showApi = "https://api.tvmaze.com/shows";
 
 const fetchShows = async () => {
   const res = await fetch(showApi);
@@ -6,6 +6,4 @@ const fetchShows = async () => {
   return allShows;
 };
 
-export {
-  fetchShows, showApi,
-};
+export { fetchShows, showApi };
