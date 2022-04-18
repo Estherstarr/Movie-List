@@ -6,4 +6,4 @@ const fetchShows = async () => {
   return allShows;
 };
 
-export { fetchShows, showApi };
+export { fetchShows, showApi, };
